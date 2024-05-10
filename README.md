@@ -3,7 +3,7 @@
 ## Objective
 Develop an interactive webmapping service that allows users to explore fantasy maps styled in a D&D theme. Users can click on specific locations (e.g., buildings) to load detailed maps of these locations.
 
-## Tools and Technologies
+## Tools
 - **Inkarnate**: For creating fantasy maps.
 - **QGIS**: To georeference the created maps using ground control points and integrate road and suburb data to structure map boundaries.
 - **qgis2web**: To convert QGIS projects into web maps.
@@ -17,7 +17,7 @@ Develop an interactive webmapping service that allows users to explore fantasy m
 5. **Web Integration**: Embed the exported maps into the designated website.
 6. **Interactivity Enhancement**: Implement JavaScript to add interactive features, allowing users to click on buildings to load new detailed maps.
 
-## Expected Outcomes
+## Outcomes
 - A fully interactive web-based map service that provides a user-friendly experience for exploring D&D-themed fantasy maps.
 - Enhanced engagement through interactive elements, such as clickable locations that reveal detailed views.
 
