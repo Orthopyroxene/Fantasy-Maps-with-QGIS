@@ -21,13 +21,13 @@ Develop an interactive webmapping service that allows users to explore fantasy m
 - A fully interactive web-based map service that provides a user-friendly experience for exploring D&D-themed fantasy maps.
 - Enhanced engagement through interactive elements, such as clickable locations that reveal detailed views.
 
-## Mermaid Flowchart
+## Processing Flowchart
 
 ```mermaid
 graph TD;
     A[Create Map in Inkarnate] -->|Export as Image| B[Import to QGIS];
-    B --> C[Georeference using GCPs];
-    C --> D[Add Road and Suburb Data];
+    B --> C[Add Road and Suburb Data];
+    C --> D[Georeference using GCPs];
     D --> E[Export with qgis2web];
     E --> F[Embed in Website];
     F --> G[Add Interactive Features];
